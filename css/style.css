@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-	font-family: 'Alkatra', cursive;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -84,13 +84,21 @@ body {
 
 .info-name{
 	font-size: 3rem !important;
-	color: #cc0dff;
+	color: #ae3bce;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 1rem;
 }
 
 .info-text{
+	color: #736877;
+	font-size: 1.5rem !important;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+
+.info-location{
 	color: #736877;
 	font-size: 1.5rem !important;
 	font-weight: 400;
@@ -99,14 +107,14 @@ body {
 .info-lost{
 	color: #e41274;
 	font-size: 1.5rem !important;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 .redes-container{
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	margin-top: 2rem;
 }
 
